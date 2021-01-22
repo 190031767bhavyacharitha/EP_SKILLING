@@ -80,7 +80,7 @@ a {
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
 
     <label for="psw"><b>Registration Number</b></label>
-    <input type="password" placeholder="Enter Your Regnum" name="psw" id="psw" required>
+    <input type="text" placeholder="Enter Your Regnum" name="psw" id="psw" required>
     
     <label for="cars">Fav.Subject:</label>
   <select name="cars" id="cars">

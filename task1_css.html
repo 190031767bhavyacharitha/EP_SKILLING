@@ -5,7 +5,7 @@
 <style>
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: black;
+  background-color: lightblue;
 }
 
 * {
@@ -14,15 +14,15 @@ body {
 
 /* Add padding to containers */
 .container {
-  padding: 16px;
+  padding: 10px;
   background-color: lightblue;
 }
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
+  width: 50%;
+  padding: 10px;
+  margin: 5px 0 10px 0;
   display: inline-block;
   border: none;
   background: #f1f1f1;
@@ -36,18 +36,18 @@ input[type=text]:focus, input[type=password]:focus {
 /* Overwrite default styles of hr */
 hr {
   border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 /* Set a style for the submit button */
 .registerbtn {
   background-color: #4CAF50;
   color: white;
-  padding: 16px 20px;
+  padding: 8px 10px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width:  50%;
   opacity: 0.9;
 }
 
@@ -75,13 +75,25 @@ a {
     <hr>
 <label for="email"><b>Name</b></label>
     <input type="text" placeholder="Enter Your Name" name="email" id="email" required>
+    <br><br>
     
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    <form action="/action_page.php">
+  <p> Gender:</p>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+
+  <br> 
+  <br>
 
     <label for="psw"><b>Registration Number</b></label>
     <input type="text" placeholder="Enter Your Regnum" name="psw" id="psw" required>
-    
+    <br>
     <label for="cars">Fav.Subject:</label>
   <select name="cars" id="cars">
     <option value="volvo">Java</option>
@@ -90,6 +102,17 @@ a {
     <option value="audi">DS</option>
   </select>
   <br><br>
+  <br>
+  <form action="/action_page.php">
+  Fav.Sport
+  <br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Cricket</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Football</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Chess</label><br><br>
+</form>
   <form action="/action_page.php" id="usrform">
   Address: 
 </form>

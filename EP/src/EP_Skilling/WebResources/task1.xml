@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Students xmlns="http://www.w3schools.com" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:schemaLocation="task1.xsd">
+          
+    <Student>
+        <no>1</no>
+        <id>1976</id>
+        <name>Bhavya</name>
+        <email>vbc@gmail.com</email>
+        <marks>98</marks>
+        <class>10</class>
+    </Student>
+    <Student>
+        <no>2</no>
+        <id>1936</id>
+        <name>Reshma</name>
+        <email>rsl@gmail.com</email>
+        <marks>97</marks>
+        <class>10</class>
+    </Student>
+    <Student>
+        <no>3</no>
+        <id>1904</id>
+        <name>Bhuva</name>
+        <email>1904@gmail.com</email>
+        <marks>96</marks>
+        <class>10</class>
+    </Student>
+    <Student>
+        <no>4</no>
+        <id>1940</id>
+        <name>Amruta</name>
+        <email>a.a@gmail.com</email>
+        <marks>98</marks>
+        <class>10</class>
+    </Student>
+    <Student>
+        <no>5</no>
+        <id>1908</id>
+        <name>Geetika</name>
+        <email>geetu@gmaol.com</email>
+        <marks>98</marks>
+        <class>10</class>
+    </Student>
+</Students>
